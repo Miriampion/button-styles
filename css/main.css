@@ -8,18 +8,24 @@ html {
 }
 
 div {
-  padding: .5rem;
   text-align: center;
-  display: block;
-
+  padding: .5em;
 }
-
 .btn {
-  background-color: #000;
+  background-color: #333;
   color: #fff;
   text-decoration: none;
   padding: .4em .75em .3em;
+  text-align: center;
   border-radius: 8px;
+  border: 3px solid;
+  display: inline-block;
+  font-size: 1.125rem;
+}
+
+.btn:hover {
+  background-color: #000;
+  color: #fff;
 }
 
 a {
@@ -29,25 +35,38 @@ a {
 .btn-subtle {
   background-color: #ccc;
   color: #fff;
-  padding: .4em .75em .3em;
-  border-radius: 8px;
+  border-color: #ccc
 }
 
 .btn-ghost {
   background-color: #fff;
   color: #000;
-  padding: .4em .75em .3em;
-  border: 3px solid;
-  border-radius: 8px;
 }
 
 .btn-warning {
   background-color: #f33;
   color: #fff;
-  border-radius: 8px;
-  padding: .4em .75em .3em;
+  border-color: #f33
 }
 
 .btn-big {
   font-size: 1.5rem;
+}
+
+.btn-small {
+  font-size: .875rem;
+}
+
+.btn-ghost:hover {
+  background-color: #666;
+  color: #fff;
+}
+
+.btn-subtle:hover {
+  background-color: #666;
+  color: #fff;
+}
+
+.btn-warning:hover {
+  background-color: #933
 }
