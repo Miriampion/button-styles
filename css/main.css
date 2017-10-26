@@ -11,6 +11,7 @@ div {
   text-align: center;
   padding: .5em;
 }
+
 .btn {
   background-color: #333;
   color: #fff;
@@ -35,7 +36,7 @@ a {
 .btn-subtle {
   background-color: #ccc;
   color: #fff;
-  border-color: #ccc
+  border-color: #ccc;
 }
 
 .btn-ghost {
@@ -46,7 +47,7 @@ a {
 .btn-warning {
   background-color: #f33;
   color: #fff;
-  border-color: #f33
+  border-color: #f33;
 }
 
 .btn-big {
@@ -68,5 +69,5 @@ a {
 }
 
 .btn-warning:hover {
-  background-color: #933
+  background-color: #933;
 }
